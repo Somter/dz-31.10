@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .photo {
+            border: 3px solid black;
+            margin-left: 3%;
+        }
+
+        .promotion {
+            display: inline-block;
+            font-weight: bold;
+            font-size: 13px;
+            margin-left: 50px;
+            margin-bottom: 5px;
+            border-radius: 40px;
+            background-color: rgb(209, 77, 77);
+            color: white;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+
+        .small_photo {
+            padding-left: 10px;
+        }
+
+        .character {
+            padding-left: 45px;
+            font-size: 11px;
+        }
+
+        .left_block {
+            padding: 1em;
+            background-color: rgb(42, 165, 48);
+        }
+        .text {
+            font-weight: bolder;
+            font-size: 20px;
+        }
+
+        .right_block {
+            position: absolute;
+            top: 0;
+            left: 44%;
+            
+        }
+
+        .recommend {
+            border: 2px solid  rgb(42, 165, 48);
+            border-radius: 10px;
+            padding: 10px;
+            margin-right: 1em;
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .salesman{
+            color: grey;
+            border-radius: 5px;
+            border: 1px solid grey;
+            margin-top: 5em;
+            margin-right: 20px;
+        }
+
+        .buy{
+            display: inline-block; 
+            background-color:  rgb(42, 165, 48);
+            border-radius: 6px;
+            padding: 5px;
+            padding-left: 4em;
+            padding-right: 4em;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .credit{
+            display: inline-block; 
+            color: rgb(42, 165, 48);
+            border: 1px solid rgb(42, 165, 48);
+            padding: 5px;
+            padding-left: 4em;
+            padding-right: 4em;
+            border-radius: 6px;
+            margin-left: 10px;
+        }
+
+        .discount{
+            background-color: rgb(15, 15, 97);
+            margin-top: 20px;
+            margin-left: -10px;
+            padding: 10px;
+            color: rgb(255, 217, 0);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="blocks-container">
+        <div style="margin-top: 20px">
+            <div class="promotion">АКЦИЯ</div>
+            <div>
+                <img class="photo" src="372796280.png" width="600px" height="600px">
+                <div style="margin-left: 3em;">
+                    <img style="border: 2px solid rgb(13, 205, 13); text-align: center;" src="372796280.png" width="3%" height="3%">
+                    <img class="small_photo" src="372796280.png" width="3%" height="3%">
+                    <img class="small_photo" src="372796280.png" width="3%" height="3%">
+                    <img class="small_photo" src="372796280.png" width="3%" height="3%">
+                    <img class="small_photo" src="372796280.png" width="3%" height="3%">
+                    <img class="small_photo" src="372796280.png" width="3%" height="3%">
+                    <img class="small_photo" src="372796280.png" width="3%" height="3%">
+                    <img class="small_photo" src="372796280.png" width="3%" height="3%">
+                    <img class="small_photo" src="372796280.png" width="3%" height="3%">
+                    <img class="small_photo" src="372796280.png" width="3%" height="3%">
+                </div>
+                <p class="character">
+                    Экран 15.6" IPS (1920x1080) Full HD, матовый / Intel Core i5-12450H (2.0 - 4.4 ГГц)
+                    / RAM 8 ГБ / SSD 512 ГБ / nVidia <br> GeForce RTX 2050, 4 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / без ОС / 2.1 кг / черный
+                </p>
+            </div>
+
+            <div class="right_block">
+                <div class="text">
+                    <p>
+                        Ноутбук Acer Aspire 7 A715-76G-51C4 (NH.QN4EU.003) Charcoal <br>
+                        Black / Intel Core i5-12450H / RAM 8 ГБ / SSD 512 ГБ / nVidia <br>
+                        GeForce RTX 2050, 4 ГБ / Подсветка клавиатуры
+                    </p>
+                </div>
+                <div style="color: grey; margin-left: 67%;">
+                    <p>Код: 391395969</p>
+                </div>
+
+                <div class="recommend">
+                    <div class="flex-container">
+                        <img src="372796280.png" width="13%" height="13%">
+                        <div style="font-size: small;">
+                            <p style="color:  rgb(13, 205, 13);">Рекомендации</p> 
+                            <p>
+                                Ноутбук Acer Aspire 7 A715-76G-51C4 (NH.QN4EU.003) Charcoal <br>
+                                Black / Intel Core i5-12450H / RAM 8 ГБ / SSD 512 ГБ / nVidia
+                                GeForce RTX 2050, 4 ГБ / Подсветка клавиатуры
+                            </p>
+                        </div>
+                        <span style="font-weight: bold;">33999<span>&#8372;</span></span>
+                    </div>
+                </div>
+
+                <div class="salesman">
+                    <div style="padding: 10px;">
+                        <span>Продавец:</span>
+                        <img src="1200px-ROZETKA-Logo-L3-B-RGB.png" width="75px">
+                    </div>
+                    <hr>
+                    <div style="padding-left: 10px;">
+                        <p style="margin-top: -5px;"></p><s>37 999<span><sub>&#8372;</sub></span></s></p>
+                        <div style="margin-top: -15px;">
+                            <div style="color: red; font-size: 1.5em; display: inline-block;">30 999<span>&#8372;</span></div>
+                            <div class="buy">Купить</div>
+                            <div class="credit">Купить в кредит</div>
+                            <img src="pngegg.png" style="margin-left: 50px;" class="hearts" width="16px" height="16px">
+                            <span style="color: grey; margin-left: 50px;">272</span>
+                        </div>
+                        <div class="discount">НЕСТРАШНІ ЦІНИ ДО - 40%</div>
+                        <div style="margin-top: 10px; margin-bottom: 5px;">
+                            <img src="369396844.jpg" width="40px" height="40px">
+                            <img src="254220098.jpg" width="40px" height="40px">
+                            <img src="254246631.jpg" width="40px" height="40px">
+                            <img src="359228438.jpg" width="40px" height="40px">
+                            <img src="254250970.jpg" width="40px" height="40px">
+                            <img src="290041458.jpg" width="40px" height="40px">
+                            <img src="254250970.jpg" width="40px" height="40px">
+                            <img src="376669034.jpg" width="40px" height="40px">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
